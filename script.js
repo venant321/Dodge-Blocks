@@ -60,7 +60,7 @@ function spawnAbility() {
   abilities.push({ x, y, size, type, speedY: 2 });
 }
 
-setInterval(spawnBlock, 800);
+setInterval(spawnBlock, 400);
 setInterval(spawnAbility, 8000);
 
 function update() {
